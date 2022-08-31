@@ -108,6 +108,33 @@ public class App {
         
         sc.close();*/
 
+        //7.tehtävä
+
+        /*Scanner sc = new Scanner(System.in);
+
+        System.out.println("Anna karkkien määrä");
+
+        int maara = Integer.parseInt(sc.nextLine());
+
+        double jaa = maara%5;
+
+        System.out.println("Karkkeja jää " + jaa);*/
         
+        //8.tehtävä
+
+        /*Scanner sc = new Scanner(System.in);
+
+        System.out.println("Paljos Matilla on rahaa?");
+
+        double raha = Double.parseDouble(sc.nextLine());
+
+        System.out.println("ja kuinka monta lasta sulla on?");
+        
+        int lapset = Integer.parseInt(sc.nextLine());
+
+        double jaa = raha%lapset;
+
+        System.out.println("Sinulle jää " + jaa + " euroa.");*/
+
     }
 }
