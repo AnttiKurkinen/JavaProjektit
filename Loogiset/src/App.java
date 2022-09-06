@@ -45,7 +45,7 @@ public class App {
 
         //2.a tehtävä
 
-        Scanner sc = new Scanner(System.in);
+        /*Scanner sc = new Scanner(System.in);
 
         System.out.println("Pelaaja 1: Kerro pisteesi");
         int pelaaja1 = Integer.parseInt(sc.nextLine());
@@ -66,6 +66,27 @@ public class App {
             System.out.println("Pelaaja 1 pisteet: " + pelaaja1
             + System.lineSeparator() + "Pelaaja 2 pisteet: " + pelaaja2
             + System.lineSeparator() + "tasapeli!");
+        }*/
+
+        //4. tehtävä
+
+        /*Scanner sc = new Scanner(System.in);
+
+        System.out.println("Anna ikäsi: ");
+        int age = Integer.parseInt(sc.nextLine());
+
+        if( age < 18){
+            System.out.println("Olet nuori!");
         }
+        else if( age > 50){
+            System.out.println("Olet vanha!");
+        }
+        else if( age <= 50 && age >= 35 ){
+            System.out.println("Olet keski-ikäinen");
+        }
+        else{
+            System.out.println("Normi ikä");
+        }
+        sc.close();*/
     }
 }
